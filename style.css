@@ -1,0 +1,19 @@
+:root{
+  --muted: rgb(90, 89, 89);
+  --accent: #1b3fa0;
+  --maxw: 900px;
+}
+*{box-sizing:border-box}
+body{
+  font-family: "Helvetica Neue"; 
+  margin:0; 
+  padding:28px;
+  background: radial-gradient(circle, beige, lightblue);
+}
+.container{max-width:var(--maxw); margin:0 auto;}
+header h1{font-size:1.8rem; margin:0 0 6px 0;}
+.subtitle{color:var(--muted); margin:0 0 18px 0;}
+.bucket ol{padding-left:1.05rem; line-height:1.6; font-size:1rem;}
+.bucket li{margin:12px 0; background:lightblue; padding:10px; border-left:4px solid var(--accent); border-radius:6px;}
+.notes{margin-top:18px; background:cadetblue; padding:12px; border-radius:6px;}
+nav a{color:var(--accent); text-decoration:underline;}
